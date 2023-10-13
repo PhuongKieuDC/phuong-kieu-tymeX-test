@@ -23,6 +23,7 @@ const entities = [ProductEntity, CategoryEntity];
       namingStrategy: new SnakeNamingStrategy(),
       logging: true,
       entities: entities,
+      ssl: { rejectUnauthorized: false },
     }),
   ],
   controllers: [],
